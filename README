@@ -1,0 +1,18 @@
+1. Load data
+	- Make sure to randomize the samples
+	- Check if you need to normalize the data (mean: 0, std: 1)
+	- [May be] Use Stemmer to normalize data if it is text data
+
+2. Train on each classification algorithm with default params for training data [Notebook # 5]
+
+2.5 [May be] Do a PCA to reduce dimensionality of data [Notebook # 9]
+
+3. Search for best parameters for each algorithm by cross_val_score() and plotting the results [Notebook # 7]
+
+4. Run grid search on the algorithm that has best score from the previous step
+
+4. Get performance metrics (score, precision, recall, F-score) for the best algorithm with the best parameters
+
+6. Plot with best parameters and report performance metrics again
+
+
